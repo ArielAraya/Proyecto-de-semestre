@@ -4,43 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subir Juego</title>
+    <title>GameRev.io - Subir Juego</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css"  rel="stylesheet" href="css/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Fredoka&family=Secular+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
-        <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
-    </div>
-    
-    <div>
-        <h1>Ingresa Datos del Juego</h1>
-        <p>
-            <input type="text" id="GameName" name="GameName" placeholder="Ingrese Nombre del Juego"><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
-        </p>
-        <p>
-            <textarea name="GameDescription" id="GameDescription" cols="50" rows="10" placeholder="Ingrese descripción del juego (ayuda a tener posibles jugadores)"></textarea><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
-        </p>
-        <p>
-            <img src="img/upload.png" alt="SubirJuego" height="32" width="32"><input id="upload" type="file"/><a href="" id="upload_link">Subir Archivos del juego</a><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
-        </p>
-    </div>
-    <div>
-        <p>
-            <img src="img/upload.png" alt="SubirImagen" height="32" width="32"><input id="upload" type="file"/><a href="" id="upload_link">Subir Imágenes del juego</a><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
-        </p>
-        <p>
-            <img src="img/GameSample.png" alt="Imágenes del juego" width="640" height="360">
-        </p>
-        <p>
-            <button type="button"> <a href="UploadedGame.html">Subir Juego</a></button>
-        </p>
+    <header>
+        <div class="headerFull">
+            <div class="divLeft">
+                <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
+                <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
+            </div>
+        </div>
+    </header>
+    <div class="contentDiv">
+        <div class="divFullLeft">
+            <h1>Ingresa Datos del Juego</h1>
+            <p>
+                <input type="text" id="GameName" name="GameName" placeholder="Ingrese Nombre del Juego"><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
+            </p>
+            <p>
+                <textarea name="GameDescription" id="GameDescription" cols="50" rows="10" placeholder="Ingrese descripción del juego (ayuda a tener posibles jugadores)"></textarea><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
+            </p>
+            <p>
+                <img src="img/upload.png" alt="SubirJuego" height="32" width="32"><input id="upload" type="file"/><button class="buttonStyle"><a class="buttonText" href="" id="upload_link">Subir Archivos del juego</a></button><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
+            </p>
+        </div>
+        <div class="divFullRight">
+            <p>
+                <img src="img/upload.png" alt="SubirImagen" height="32" width="32"><input id="upload" type="file"/><button class="buttonStyle"><a class="buttonText" href="" id="upload_link">Subir Imágenes del juego</a></button><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
+            </p>
+            <p>
+                <img src="img/GameSample.png" alt="Imágenes del juego" width="640" height="360">
+            </p>
+            <p class="divRight">
+                <button class="buttonStyle" type="button"> <a class="buttonText" href="UploadedGame.html">Subir Juego</a></button>
+            </p>
+        </div>
     </div>
 
 </body>
 <footer>
-    <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
-    <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
-    <button type="button"> <a href="index.html">Volver al menú principal</a></button>
+    <div class="headerFull divCenter">
+        <div class="divLeft">
+            <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
+            <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
+
+        </div>
+        <div class="divRight">
+            <button class="buttonStyle" type="button"> <a class="buttonText" href="index.html">Volver al menú principal</a></button>            
+        </div>
+    </div>
 </footer>
 </html>

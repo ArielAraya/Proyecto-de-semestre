@@ -4,36 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hacer Review</title>
+    <title>GameRev.io - Hacer Review</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css"  rel="stylesheet" href="css/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Fredoka&family=Secular+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
-        <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
-    </div>
+    <header>
+        <div class="headerFull">
+            <div class="divLeft">
+                <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
+                <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
+            </div>
+        </div>
+    </header>
+    <div class="contentDiv">
+        <div class="contentDiv divFullLeft centerEverything">
+            <p>
+                <input type="text" placeholder="Ingrese nombre de review"><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
+            </p>
+            <p>
+                <textarea name="GameReview" id="GameReview" cols="50" rows="10" placeholder="Ingrese review del juego (mínimo 500 palabras)"></textarea><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
+            </p>
+            <p>
+                <button class="buttonStyle" type="button"> <a class="buttonText" href="UploadedReview.html">Subir Review</a></button>
+            </p>
+        </div>
     
-    <div>
-        <p>
-            <input type="text" placeholder="Ingrese nombre de review"><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
-        </p>
-        <p>
-            <textarea name="GameReview" id="GameReview" cols="50" rows="10" placeholder="Ingrese review del juego (mínimo 500 palabras)"></textarea><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
-        </p>
-        <p>
-            <button type="button"> <a href="UploadedReview.html">Subir Review</a></button>
-        </p>
+        <div class="contentDiv divFullRight">
+            <h1 class="titles centerEverything">Titulo de Juego</h1>
+            <div class="centerEverything">
+                <img src="img/GameSample.png" alt="Imágenes del juego" width="480" height="240">
+            </div>
+        </div>
     </div>
-
-    <div>
-        <h1>Titulo de Juego</h1>
-        <img src="img/GameSample.png" alt="Imágenes del juego" width="640" height="360">
-    </div>
-
 </body>
 <footer>
-    <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
-    <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
-    <button type="button"> <a href="index.html">Volver al menú principal</a></button>
+    <div class="headerFull divCenter">
+        <div class="divLeft">
+            <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
+            <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
+
+        </div>
+        <div class="divRight">
+            <button class="buttonStyle" type="button"> <a class="buttonText" href="index.html">Volver al menú principal</a></button>            
+        </div>
+    </div>
 </footer>
 </html>

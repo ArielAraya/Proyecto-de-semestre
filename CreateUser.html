@@ -4,43 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crear Usuario</title>
+    <title>GameRev.io - Crear Usuario</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css"  rel="stylesheet" href="css/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Fredoka&family=Secular+One&display=swap" rel="stylesheet">
+</head>
 </head>
 <body>
-    <div>
-        <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
-        <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
+    <header>
+        <div class="headerFull">
+            <div class="divLeft">
+                <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
+                <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
+            </div>
+        </div>
+    </header>
+    
+    <div class="contentDiv centerEverything">
+        <div class="divBodyLeft">
+            <p>
+                <select name="UserType">
+                    <option value="1">Normal</option>
+                    <option value="2">Creador</option>
+                </select>
+                <img src="img/advertencia.png" alt="advertencia" height="24" width="24">Se hará revisión y posterior aceptación o denegación.
+            </p>
+            <p>
+                <input type="text" id="UserName" name="UserName" placeholder="Ingrese Nombre de Usuario"><img src="img/advertencia.png" alt="advertencia " height="24" width="24">
+            </p>
+                <input type="password" id="UserPass" name="UserPass" placeholder="Ingrese Contraseña"><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
+            <p>
+                <input type="password" id="UserPassRep" name="UserPassRep" placeholder="Repita Contraseña"><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
+            </p>
+            <p>
+                <button class="buttonStyle" type="button"> <a class="buttonText" href="Created.html">Crear Cuenta</a></button>
+                <button class="buttonStyle" type="button"> <a class="buttonText" href="LoginUser.html">Ya Tengo Cuenta</a></button>
+            </p>
+        </div>
+    
+        <div class="divBodyRight">
+            <p class="promoText">
+                Crea tu cuenta y comienza a explorar un mundo de posibilidades! Crea tu juego, súbelo, y espera las reviews! Si no deseas subir un juego, puedes hacer reviews de los que ya están disponibles! Tanto los creadores como los usuarios normales pueden crear reviews, eres libre de hacerlo!
+            </p>
+        </div>
     </div>
     
-    <div>
-        <p>
-            <select name="UserType">
-                <option value="1">Normal</option>
-                <option value="2">Creador</option>
-            </select>
-            <img src="img/advertencia.png" alt="advertencia" height="24" width="24">Dependiendo de la cuenta, se hará revisión y posterior aceptación o denegación.
-        </p>
-        <p>
-            <input type="text" id="UserName" name="UserName" placeholder="Ingrese Nombre de Usuario"><img src="img/advertencia.png" alt="advertencia " height="24" width="24">
-        <p>
-            <input type="password" id="UserPass" name="UserPass" placeholder="Ingrese Contraseña"><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
-        </p>
-            <input type="password" id="UserPassRep" name="UserPassRep" placeholder="Repita Contraseña"><img src="img/advertencia.png" alt="advertencia" height="24" width="24">
-        </p>
-        <p>
-            <button type="button"> <a href="Created.html">Crear Cuenta</a></button>
-            <button type="button"> <a href="LoginUser.html">Ya Tengo Cuenta</a></button>
-        </p>
-    </div>
-
-    <div>
-        Crea tu cuenta y comienza a explorar un mundo de posibilidades! Crea tu juego, súbelo, y espera las reviews! Si no deseas subir un juego, puedes hacer reviews de los que ya están disponibles! Tanto los creadores como los usuarios normales pueden crear reviews, eres libre de hacerlo!
-    </div>
 </body>
 <footer>
-    <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
-    <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
-    <button type="button"> <a href="index.html">Volver al menú principal</a></button>
+    <div class="headerFull divCenter">
+        <div class="divLeft">
+            <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
+            <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
+
+        </div>
+        <div class="divRight">
+            <button class="buttonStyle" type="button"> <a class="buttonText" href="index.html">Volver al menú principal</a></button>            
+        </div>
+    </div>
 </footer>
 </html>

@@ -6,34 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameRev.io</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link type="text/css"  rel="stylesheet" href="css/estilos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Fredoka&family=Secular+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
-        <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
-        <button type="button"> <a href="CreateUser.html">Registrarse</a></button>
-        <button type="button"> <a href="LoginUser.html"> Iniciar sesión</a></button>
-    </div>
-    
-    <div>
-        GameRev, la mejor página para subir tus juegos y recibir o dar reviews!
-        <button type="button"><a href="UploadGame.html">Subir Un Juego</a></button>
-        <button type="button"><a href="Games.html">Revisar Juegos</a></button>
-        <button type="button"><a href="Games.html">Mejor Valorados</a></button>
-        <button type="button"><a href="Games.html">Juegos Nuevos</a></button>
+    <header>
+        <div class="headerFull">
+            <div class="divLeft">
+                <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
+                <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
+            </div>
+            <div class="divRight">
+                <button type="button" class="buttonStyle"> <a class="buttonText" href="CreateUser.html">Registrarse</a></button>
+                <button type="button" class="buttonStyle"> <a class="buttonText" href="LoginUser.html"> Iniciar sesión</a></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="contentDiv">
+        <div class="divLeft promoText">
+            GameRev, la mejor página para subir tus juegos y recibir o dar reviews!
+        </div>
+        <div class="divRight">
+            <button type="button" class="buttonStyle"><a class="buttonText" href="UploadGame.html">Subir Un Juego</a></button>
+            <button type="button" class="buttonStyle"><a class="buttonText" href="Games.html">Revisar Juegos</a></button>
+            <button type="button" class="buttonStyle"><a class="buttonText" href="Games.html">Mejor Valorados</a></button>
+            <button type="button" class="buttonStyle"><a class="buttonText" href="Games.html">Juegos Nuevos</a></button>
+        </div>
     </div>
 
-    <div>
-        <h2><a href="UserGame.html">Titulo de juego</a></h2>
-        <img src="img/GameSample.png" alt="Imágenes del juego" width="460" height="240">
-    </div>
-    <div>
-        <h2><a href="UserGame.html">Titulo de juego</a></h2>
-        <img src="img/GameSample.png" alt="Imágenes del juego" width="460" height="240">
+    <div class="contentDiv">
+        <div class="divLeft">
+            <h2 class="titles"><a href="UserGame.html">Titulo de juego</a></h2>
+            <img src="img/GameSample.png" alt="Imágenes del juego" width="460" height="240">
+        </div>
+        <div class="divRight">
+            <h2 class="titles"><a href="UserGame.html">Titulo de juego</a></h2>
+            <img src="img/GameSample.png" alt="Imágenes del juego" width="460" height="240">
+        </div>
     </div>
 </body>
 <footer>
-    <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
-    <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
+    <div class="headerFull divCenter">
+        <div class="divLeft">
+            <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64">
+            <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64">
+        </div>
+    </div>
 </footer>
 </html>

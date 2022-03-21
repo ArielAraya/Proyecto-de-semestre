@@ -1,0 +1,192 @@
+.buttonStyle{
+    padding: 10px*1% 10px*1%;
+    border-radius: 10px;
+    color: #ffffff;
+    position: right;
+    background-color: #cc0000;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: 'Fredoka', sans-serif;
+}
+.buttonText{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*
+.button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+*/
+  .divRight{
+      float:right;
+      padding-right: 1%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+
+.divLeft{
+    float:left;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divCenter{
+    clear:both;
+    background-color: #e06666;
+}
+
+.headerFull{
+    background-color: #ea9999;
+    overflow: hidden;
+    height: 100px;
+    line-height: 100px;
+}
+
+.contentDiv{
+    background-color: #e06666;
+    overflow: hidden;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.titles{
+    font-family: 'Secular One', sans-serif;
+    font-size: 250%;
+    text-decoration: none;
+}
+
+.promoText{
+    font-family: 'Caveat', cursive;
+    font-size: 200%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(99, 0, 77);
+}
+
+input{
+    border-radius: 10px;
+    border: 3px solid #ff0000;
+}
+
+.centerEverything{
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+select{
+    border: 3px red;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.divBodyLeft{
+    margin-top: 1%;
+    width: 49%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%;
+    float:left;
+    height: 20%;
+}
+
+.divBodyRight{
+    margin-top: 1%;
+    width: 49%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%;
+    float:right;
+    height: 20%;
+}
+
+textarea{
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.fontMasGrande{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 200%;
+}
+
+.fontDescripcion{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 125%;
+}
+
+h2{
+    font-size: 200%;
+}
+
+.review{
+    margin: 1%;
+    background-color: #ea9999;
+}
+
+input[type=file]{
+    background-color: #ffffff;
+    padding: 0.3%;
+}
+
+.divFullLeft{
+    float:left;
+    padding-right: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 49%;
+}
+
+.divFullRight{
+    float:right;
+    padding-right: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 49%;
+}
+
+.divCuatroFilas{
+    width: 25%;
+    float: left;
+}
+
+span{
+    font-weight: bold;
+}
