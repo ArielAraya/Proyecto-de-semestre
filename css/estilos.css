@@ -1,53 +1,11 @@
 .buttonStyle{
-    padding: 10px*1% 10px*1%;
-    border-radius: 10px;
-    color: #ffffff;
-    position: right;
-    background-color: #cc0000;
+    background-color: #c7d5e0;
     text-decoration: none;
-    font-size: 150%;
+    font-size: 75%;
     font-family: 'Fredoka', sans-serif;
+    color:rgb(46, 46, 46);
 }
-.buttonText{
-    text-decoration: none;
-    color: #ffffff;
-}
-/*
-.button {
-    position: relative;
-    background-color: #4CAF50;
-    border: none;
-    font-size: 14px;
-    color: #FFFFFF;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  
-  .button:after {
-    content: "";
-    background: #f1f1f1;
-    display: block;
-    position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px !important;
-    margin-top: -120%;
-    opacity: 0;
-    transition: all 0.8s
-  }
-  
-  .button:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
-  }
-*/
+
   .divRight{
       float:right;
       padding-right: 1%;
@@ -77,7 +35,7 @@
 }
 
 .contentDiv{
-    background-color: #e06666;
+    background-color: #2a475e;
     overflow: hidden;
     font-family: 'Fredoka', sans-serif;
 }
@@ -91,16 +49,14 @@
 .promoText{
     font-family: 'Caveat', cursive;
     font-size: 200%;
+    color: #c7d5e0;
+    text-align: center;
 }
 
-a{
+.buttonLink{
     text-decoration: none;
-    color: rgb(99, 0, 77);
-}
-
-input{
-    border-radius: 10px;
-    border: 3px solid #ff0000;
+    color: #c7d5e0;
+    font-size: 150%;
 }
 
 .centerEverything{
@@ -142,23 +98,21 @@ textarea{
     padding: 5px 5px;
 }
 
-.fontMasGrande{
+.InfoText{
     font-family: 'Fredoka', sans-serif;
-    font-size: 200%;
+    font-size: 175%;
+    color:#c7d5e0;
+
 }
 
 .fontDescripcion{
     font-family: 'Fredoka', sans-serif;
     font-size: 125%;
+    color:#c7d5e0;
 }
 
 h2{
     font-size: 200%;
-}
-
-.review{
-    margin: 1%;
-    background-color: #ea9999;
 }
 
 input[type=file]{
@@ -189,4 +143,34 @@ input[type=file]{
 
 span{
     font-weight: bold;
+    color:#c7d5e0;
+}
+
+.Logo{
+    max-width: 60%;
+}
+
+.aTitle{
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+.textAlignCenter{
+    text-align: center;
+}
+
+.contentFooter{
+    text-align: left;
+    background-color: #212529;
+}
+.padding10{
+    padding: 10px;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.imgResponsive{
+    width: 100%;
 }
