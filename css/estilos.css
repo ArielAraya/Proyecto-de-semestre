@@ -153,6 +153,14 @@ span{
     text-align: center;
 }
 
+.textAlignLeft{
+    text-align: left;
+}
+
+.textAlignRight{
+    text-align: right;
+}
+
 .contentFooter{
     text-align: left;
     background-color: #212529;
