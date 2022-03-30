@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8AE31C3-690B-51E0-6C05-AC05B37EE61D" name="GamePhoto">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>7045D915-F614-39D3-0AD7-E16502B14B87</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GamePhotoID" id="C662B43A-2353-F873-06B6-27DB0717326E">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>46E1BF99-BDBE-D5BA-8706-741BCF3255E3</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GamePhoto" id="30516CC9-2F92-4A99-F8B0-8067E852E1E7">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>338713DD-2BB7-D46F-72BF-4BD76A609D30</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5A8A224-56FC-7BB1-C31B-A613CF84FD0E" name="GamePhoto_PK">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>289C43EE-F506-179F-24CB-415810BA9964</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C662B43A-2353-F873-06B6-27DB0717326E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

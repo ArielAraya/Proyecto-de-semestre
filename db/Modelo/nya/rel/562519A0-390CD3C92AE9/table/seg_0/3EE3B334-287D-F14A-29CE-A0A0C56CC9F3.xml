@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EE3B334-287D-F14A-29CE-A0A0C56CC9F3" name="User">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>F31459A1-4388-1AEC-1352-706EDD648D9A</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UserID" id="604F7B70-C16B-ABFF-269E-014C4601ED3B">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>265F207E-22BE-EEEA-E8E5-363CB585B899</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserName" id="0E13D01A-4F78-703A-E3FC-BE84176A48A3">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>B46B73BB-FCF7-55AF-7323-B3CF927A423D</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserMail" id="B89F15E9-189F-DAE1-9F60-00F59688C63B">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>7B0F0036-0BD9-A656-5DBF-0CC7D1C9DCB2</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserPassword" id="EEBD1713-4720-FD8D-3ECD-94D0811ED9D8">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>FCC1E5F8-CE54-8C25-DDE5-985161B85190</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UserType_UserTypeID" id="513FFE43-61E2-EBEC-F6DC-C304F6F708A1">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>E022B322-8259-F4E5-5E9B-4DF5FAF7B405</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8302C15-76D0-45A7-DEFD-7A0538CF8F8D" referredColumn="07A1E480-5431-54CC-8138-A8CE2B0DBE9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58CE9D85-70EE-376E-D828-05684C7539CB" name="User_PK">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>D84ECF78-FD6F-45D1-AAEC-CC493FC5E346</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="604F7B70-C16B-ABFF-269E-014C4601ED3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F8186CC-7C7A-B0C1-1F20-A0FDA227A9B5" name="User_UserType_FK">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>0E752713-FFB5-69AD-B09B-2DDDE6F7DE4F</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="513FFE43-61E2-EBEC-F6DC-C304F6F708A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

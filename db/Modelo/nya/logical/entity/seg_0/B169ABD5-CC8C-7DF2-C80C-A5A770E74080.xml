@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B169ABD5-CC8C-7DF2-C80C-A5A770E74080" name="UserType">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:19:49 UTC</createdTime>
+<ownerDesignName>nya</ownerDesignName>
+<engineerTo>
+<item key="562519A0-F775-B7E8-A7D3-390CD3C92AE9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="UserTypeID" id="9F6C30C4-F7BB-BBB0-E942-E5A854B96568">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:19:58 UTC</createdTime>
+<ownerDesignName>nya</ownerDesignName>
+<engineerTo>
+<item key="562519A0-F775-B7E8-A7D3-390CD3C92AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UserTypeDesc" id="EF364778-4A4B-FBBD-8960-E182B053E7AA">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:20:06 UTC</createdTime>
+<ownerDesignName>nya</ownerDesignName>
+<engineerTo>
+<item key="562519A0-F775-B7E8-A7D3-390CD3C92AE9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A46EE5D7-6C30-1D23-6FFB-41677967559B" name="UserType PK">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:20:29 UTC</createdTime>
+<ownerDesignName>nya</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="562519A0-F775-B7E8-A7D3-390CD3C92AE9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F6C30C4-F7BB-BBB0-E942-E5A854B96568</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

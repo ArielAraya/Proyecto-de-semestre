@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84A3BA31-0C4D-7A34-AF2E-4D27E4483C20" name="Review">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>BF183124-4692-B7E2-EC5A-195C37E79058</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ReviewID" id="9E814063-3752-A8A8-EA86-25D444ADAD2E">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>36DF847B-8FFF-49EC-91A0-80DB2E45DE1E</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ReviewContent" id="730F15E4-E21E-C656-D4B5-9095DB178453">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>C0A4D135-5A1D-8E3D-B2D6-C99D32399CB6</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8000 CHAR</dataTypeSize>
+<ownDataTypeParameters>8000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_UserID" id="F9ACEA73-F1B5-FCA2-8169-846D951E7912">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>2E4497BC-9F6E-97D4-13C8-0C8A0F64719A</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80AD523E-6290-13F3-4690-6A9E2531A861" referredColumn="604F7B70-C16B-ABFF-269E-014C4601ED3B"/>
+</associations>
+</Column>
+<Column name="Game_GameID" id="830BE66D-16FA-24E9-E6BB-717CC5703A1A">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>30675618-29CD-218A-40C4-DA2BDC0C62D9</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1777AB86-6E0F-27E2-E1A1-DFB02BEECD6B" referredColumn="FB56FB09-4C7B-3E89-66AA-9A6F0DB777A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C8B8E70-6D17-F8BF-6B69-9AE743C555DB" name="Review_PK">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>AC2FFA58-4CAF-9372-D89D-6EBAF9DF146E</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E814063-3752-A8A8-EA86-25D444ADAD2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91DA9044-136E-7FAF-21B7-51BB236CD465" name="Review_User_FK">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>57DD4A4E-53E7-08A8-EFB2-CD6D0E4A0598</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9ACEA73-F1B5-FCA2-8169-846D951E7912"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F375FFC-3EDC-3F10-173E-EA8468D22721" name="Review_Game_FK">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>3C4F5030-B697-22AD-7375-EC1B2596637B</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="830BE66D-16FA-24E9-E6BB-717CC5703A1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

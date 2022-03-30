@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38D20099-A586-C8F6-5DC5-54E3B549AFAF" name="Game">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>8430A9BA-CFD4-ADEA-A0BB-6E2F8E44B553</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GameID" id="FB56FB09-4C7B-3E89-66AA-9A6F0DB777A0">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>36C62399-6421-DF9F-6E5C-14B084D7B7BC</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GameTitle" id="98DC97C5-999A-093D-4061-C01A4258811D">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>4B6C6241-5A2E-C800-0EA8-9F102374DD7D</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GameDescription" id="01980AE6-A26F-74F5-D99F-DE9A82B37CD2">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>5420F098-ADF6-8E2F-1D1C-F01D412FF648</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8000 CHAR</dataTypeSize>
+<ownDataTypeParameters>8000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_UserID" id="8FDA886A-F54B-7F86-1973-C343AFE4FD61">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>4B302A9A-9639-CA8C-03DA-E5BA218411E7</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CF505AB-666D-035A-D46C-06B89FC35D51" referredColumn="604F7B70-C16B-ABFF-269E-014C4601ED3B"/>
+</associations>
+</Column>
+<Column name="GamePhoto_GamePhotoID" id="7FAB2885-5F07-0338-ED30-67A95DECC5A0">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>8BBE6327-B54E-22DE-15C5-BFC70992FE49</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20EDBF8A-E2AC-F5F1-4CAE-857FD2660DF1" referredColumn="C662B43A-2353-F873-06B6-27DB0717326E"/>
+</associations>
+</Column>
+<Column name="GameArchive_GameArchiveID" id="D8D49CF6-6C44-EAB4-37F1-7EB30F2DBA7D">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>6F43CCBF-27BF-884E-D057-86F58BC54557</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D17956D8-1AEE-BAE5-0596-B7B77A6D4BC3" referredColumn="D121F205-B677-2F2E-389A-1BAD805D5758"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A81B46B2-F6FA-4F5F-1D50-D67B5CD1D53D" name="Game_PK">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>7069A8F2-1664-0BD3-4ACF-7ABF6BAE737B</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB56FB09-4C7B-3E89-66AA-9A6F0DB777A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37C82519-57D7-B4F4-955A-F8CDD340D268" name="Game_GamePhoto_FK">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>57A5DFBC-D243-B3FC-71F8-DE8A69BEE5F9</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FAB2885-5F07-0338-ED30-67A95DECC5A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3B89D0E-1A5A-65AB-5128-C5B935C1450D" name="Game_GameArchive_FK">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>CF941458-D36A-C967-25F6-743D4824A1DA</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8D49CF6-6C44-EAB4-37F1-7EB30F2DBA7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9B6B2ED-A57A-5681-CCB6-536B722FBFF6" name="Game_User_FK">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:48:24 UTC</createdTime>
+<generatorID>37171A07-2943-F52E-D99B-2A1E587A61A5</generatorID>
+<ownerDesignName>nya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FDA886A-F54B-7F86-1973-C343AFE4FD61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="nya" id="CC7F081D-51A4-A7F1-FDCC-7FF2A97649F5" version="3.5">
+<createdBy>Ariel</createdBy>
+<createdTime>2022-03-30 18:04:04 UTC</createdTime>
+<ownerDesignName>nya</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CC7F081D-51A4-A7F1-FDCC-7FF2A97649F5</designId>
+</OSDM_Design>
