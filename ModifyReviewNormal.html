@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="indexLoggedAsCreator.html">
+                <a class="navbar-brand" href="indexLoggedAsNormal.html">
                     <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64" class="img-fluid Logo">
                     <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64" class="img-fluid Logo">
                 </a>
@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link buttonLink" href="ProfileCreator.html">
+                            <a class="nav-link buttonLink" href="ProfileNormal.html">
                                 Perfil
                             </a>
                         </li>
@@ -46,46 +46,40 @@
 
     <main class="container">
         <div class="row">
-            <div class="col-12 textAlignCenter m-3">
-                <h1 class="titles aTitle">
-                    Ingresa los datos del juego
-                </h1>
+            <div class="col-lg-6 col-md-12">
+                <div class="col-12 mb-3">
+                    <form action="">
+                        <label for="ReviewName" class="InfoText form-label">
+                            Nombre de su Review
+                        </label>
+                        <input class="form-control" type="text" id="ReviewName" name="ReviewName" placeholder="Ingrese nombre de review">
+                        <label for="ReviewName" class="InfoText form-label">
+                            Review
+                        </label>
+                        <textarea class="form-control" rows="20" name="GameReview" id="GameReview" placeholder="Ingrese review del juego (mínimo 500 palabras)"></textarea>
+                    </form>
+                </div>
+                <div class="col-12 textAlignCenter">
+                    <a class="buttonLink" href="UploadedReviewNormal.html">
+                        <button class="buttonStyle btn" type="button">
+                            Modificar Review
+                        </button>
+                    </a>
+                </div>
             </div>
-            <div class="col-12">
-                <form action="UploadGame">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                            <label for="GameName" class="form-label InfoText">
-                                Ingrese nombre del juego
-                            </label>
-                            <input class="form-control" type="text" id="GameName" name="GameName" placeholder="Ingrese nombre del juego">
-                            <label for="GameDescription" class="InfoText form-label">
-                                Ingrese descripción
-                            </label>
-                            <textarea class="form-control" rows="10" name="GameDescription" id="GameDescription" placeholder="Ingrese descripción del juego (ayuda a tener posibles jugadores)"></textarea>
-                            <label for="GameArchive" class="form-label InfoText">
-                                Archivos de su juego (.zip)
-                            </label>
-                            <input class="form-control" name="GameArchive" id="upload" type="file" placeholder="Archivos del juego"/>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <label for="ImageArchive" class="form-label InfoText">
-                                Imagenes de su juego
-                            </label>
-                            <input class="form-control" name="ImageArchive" id="upload" type="file" placeholder="Archivos del juego"/>
-                            <img src="img/GameSample.png" alt="Imagen del juego subida" class="img-fluid mt-3 imgResponsive">
-                        </div>
+        
+            <div class="col-lg-6 col-md-12 textAlignCenter d-flex align-items-center">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="titles aTitle">Titulo de Juego</h1>
                     </div>
-                    <div class="row align-items-center d-flex">
-                        <div class="col-12 mt-4 textAlignCenter">
-                            <a href="UploadedGameCreator.html" class="buttonLink">
-                                <button class="buttonStyle btn" type="button">
-                                    Subir juego
-                                </button>
-                            </a>
-                        </div>
+                    <div class="col-12">
+                        <img src="img/GameSample.png" alt="Imágenes del juego" class="img-fluid imgResponsive" width="480" height="240">
                     </div>
-                </form>
+                    <div class="col-12 InfoText">
+                        Descripción del juego
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -95,17 +89,28 @@
             <div class="col-12 container-fluid">
                 <div class="row">
                     <div class="col-6 d-flex align-items-center justify-content-start">
-                        <a class="navbar-brand" href="indexLoggedAsCreator.html">
+                        <a class="navbar-brand" href="indexLoggedAsNormal.html">
                             <img src="img/iconGameRev.png" alt="icon GameRev" width="64" height="64" class="img-fluid Logo">
                             <img src="img/TextForLogo.png" alt="text GameRev" width="256" height="64" class="img-fluid Logo">
                         </a>
                     </div>
                     <div class="col-6 d-flex align-items-center justify-content-end">
-                        <a class="buttonLink" href="indexLoggedAsCreator.html">
-                            <button class="buttonStyle btn" type="button">
-                                Volver al menú principal
-                            </button>
-                        </a>
+                        <div class="row">
+                            <div class="col-6">
+                                <a class="buttonLink" href="UserGameNormal.html">
+                                    <button class="buttonStyle btn" type="button">
+                                        Volver al menú de juego
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a class="buttonLink" href="indexLoggedAsNormal.html">
+                                    <button class="buttonStyle btn" type="button">
+                                        Volver al menú principal
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
@@ -114,4 +119,5 @@
     </footer>
 
 </body>
+
 </html>
