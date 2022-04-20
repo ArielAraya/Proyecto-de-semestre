@@ -36,7 +36,7 @@
 
             </div>
             <div class="col-md-8 col-lg-6 textAlignCenter mb-3">
-                <form action="LoginUser">
+                <form action="LoginUser.html" method="post" enctype="application/x-www-form-urlencoded" name="LoginUser">
                     <label for="UserName" class="InfoText form-label">
                         Ingrese Nombre de Usuario
                     </label>
@@ -45,23 +45,22 @@
                         Ingrese Contraseña
                     </label>
                     <input class="form-control" type="password" id="UserPass" name="UserPass" placeholder="Ingrese Contraseña">
+                    <div class="col-md-12 textAlignCenter padding10">
+                        <button class="buttonStyle buttonSubmit btn" type="submit">
+                            Ingresar
+                        </button>
+                        <a href="CreateUser.html">
+                            <button class="buttonStyle buttonSubmit btn" type="button">
+                                Crear Cuenta
+                            </button>
+                        </a>
+                    </div>
                 </form>
             </div>
             <div class="col-md-2 col-lg-3">
 
             </div>
-            <div class="col-md-12 textAlignCenter">
-                <a class="buttonLink" href="indexLoggedAsNormal.html">
-                    <button class="buttonStyle btn" type="button">
-                        Ingresar
-                    </button>
-                </a>
-                <a class="buttonLink" href="CreateUser.html">
-                    <button class="buttonStyle btn" type="button">
-                        Crear Cuenta
-                    </button>
-                </a>
-            </div>
+
         </div>
     </main>
 

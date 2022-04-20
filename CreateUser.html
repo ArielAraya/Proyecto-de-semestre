@@ -31,7 +31,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-12">
                 <div class="col-12 mb-3">
-                    <form action="">
+                    <form action="Created.html" method="post" enctype="application/x-www-form-urlencoded" name="CreateUser">
                         <label for="UserType" class="InfoText form-label">
                             Elija tipo de usuario
                         </label>
@@ -51,20 +51,22 @@
                             Repita su Contraseña
                         </label>
                         <input class="form-control" type="password" id="UserPassRep" name="UserPassRep" placeholder="Repita Contraseña">
+                        <div class="row">
+                            <div class="col-12 textAlignCenter padding10">
+                                <button class="buttonStyle buttonSubmit btn" type="submit">
+                                    Crear Cuenta
+                                </button>
+                                <a href="LoginUser.html">
+                                    <button class="buttonStyle buttonSubmit btn" type="button">
+                                        Ya Tengo Cuenta
+                                    </button>
+                                </a>
+                                
+                            </div>
+                        </div>
                     </form>
                 </div>
-                <div class="col-12 textAlignCenter">
-                    <a class="buttonLink" href="Created.html">
-                        <button class="buttonStyle btn" type="button">
-                            Crear Cuenta
-                        </button>
-                    </a>
-                    <a class="buttonLink" href="LoginUser.html">
-                        <button class="buttonStyle btn" type="button">
-                            Ya Tengo Cuenta
-                        </button>
-                    </a>
-                </div>
+                
             </div>
         
             <div class="col-lg-6 col-md-12 d-flex align-items-center">

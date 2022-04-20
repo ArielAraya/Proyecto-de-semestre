@@ -31,6 +31,12 @@
     font-size: 150%;
 }
 
+.buttonSubmit{
+    text-decoration: none;
+    font-size: 125%;
+}
+
+
 .centerEverything{
     align-items: center;
     justify-content: center;
