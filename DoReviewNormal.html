@@ -49,7 +49,8 @@
         <div class="row">
             <div class="col-lg-6 col-md-12">
                 <div class="col-12 mb-3">
-                    <form action="UploadedReviewNormal.html" method="post" enctype="application/x-www-form-urlencoded" name="ReviewUser">
+                    <form action="DoReviewNormal.html" method="post" enctype="application/x-www-form-urlencoded" name="ReviewUser" id="ReviewUser">
+                        <input required type="hidden" value="1" name="UserType" id="UserType">
                         <label for="ReviewName" class="InfoText form-label">
                             Ingrese Nombre de su Review
                         </label>
@@ -57,9 +58,9 @@
                         <label for="ReviewName" class="InfoText form-label">
                             Ingrese su Review
                         </label>
-                        <textarea class="form-control" rows="20" name="GameReview" id="GameReview" placeholder="Ingrese review del juego (mínimo 500 palabras)"></textarea>
+                        <textarea required class="form-control" rows="20" name="GameReview" id="GameReview" placeholder="Ingrese review del juego (mínimo 200 caracteres)"></textarea>
                         <div class="col-12 textAlignCenter padding10">
-                            <button class="buttonStyle btn buttonSubmit" type="button">
+                            <button class="buttonStyle btn buttonSubmit" type="submit">
                                 Subir Review
                             </button>
                         </div>
@@ -80,6 +81,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row">
+            <p class="InfoText" id="Mensaje"></p>
         </div>
     </main>
 

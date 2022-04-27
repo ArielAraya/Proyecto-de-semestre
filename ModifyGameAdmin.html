@@ -49,13 +49,14 @@
         <div class="row">
             <div class="col-12 textAlignCenter m-3">
                 <h1 class="titles aTitle">
-                    Modifica los datos del juego
+                    Ingresa los datos del juego
                 </h1>
             </div>
             <div class="col-12">
-                <form action="UploadedGameAdmin.html" method="post" enctype="multipart/form-data" name="ModifyGame">
+                <form id="ModifyGame" action="ModifyGameAdmin.html" method="post" enctype="multipart/form-data" name="UploadGame">
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
+                            <input type="hidden" value="3" name="UserType" id="UserType">
                             <label for="GameName" class="form-label InfoText">
                                 Modificar nombre del juego
                             </label>
@@ -64,16 +65,16 @@
                                 Modificar descripción
                             </label>
                             <textarea class="form-control" rows="10" name="GameDescription" id="GameDescription" placeholder="Ingrese descripción del juego (ayuda a tener posibles jugadores)"></textarea>
-                            <label for="GameArchive" class="form-label InfoText">
+                            <label for="GameArchive" class="form-label InfoText" acc>
                                 Modificar archivos de su juego (.zip)
                             </label>
-                            <input class="form-control" name="GameArchive" id="upload" type="file" placeholder="Archivos del juego"/>
+                            <input class="form-control" name="GameArchive" id="GameUpload" type="file" placeholder="Archivos del juego" accept="zip,application/octet-stream,application/zip,application/x-zip,application/x-zip-compressed"/>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <label for="ImageArchive" class="form-label InfoText">
-                                Modificar imagen de su juego
+                            <label for="GameImage" class="form-label InfoText">
+                                Modificar Imagen de su juego
                             </label>
-                            <input class="form-control" name="ImageArchive" id="upload" type="file" placeholder="Archivos del juego"/>
+                            <input class="form-control" name="GameImage" id="GameImage" type="file" placeholder="Archivos del juego" accept=".jpg,.jpeg,.png,.pdf,.gif,.tiff,.psd,.bmp"/>
                             <img src="img/GameSample.png" alt="Imagen del juego subida" class="img-fluid mt-3 imgResponsive">
                         </div>
                     </div>
@@ -86,6 +87,9 @@
                     </div>
                 </form>
             </div>
+        </div>
+        <div class="row">
+            <p class="InfoText" id="Mensaje"></p>
         </div>
     </main>
 
@@ -111,6 +115,9 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="js/ModifyGame.js"></script>
 </body>
 </html>
