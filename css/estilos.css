@@ -18,6 +18,19 @@
     text-decoration: none;
 }
 
+.titleListaGames{
+    color: #6b2828;
+}
+
+.listaGames{
+    color:#2a475e;
+}
+
+.backgroundColorListaGame{
+    border-radius: 20px;
+    background-color: #c7d5e0;
+}
+
 .promoText{
     font-family: 'Caveat', cursive;
     font-size: 200%;
