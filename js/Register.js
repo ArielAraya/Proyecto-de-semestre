@@ -126,11 +126,24 @@ $(document).ready(function(){
 
     // CAMBIA DE COLOR SI NO COINCIDEN LAS CONTRASEÑAS
 
-    $("#UserPassRep").on("input",function(e){
-        if(this.value != $("#UserPass").val()){
+    $("#UserPass").on("input",function(e){
+        if(this.value != $("#UserPassRep").val()){
+            $("#UserPass").css({"backgroundColor" : "#FFAC33"});
             $("#UserPassRep").css({"backgroundColor" : "#FFAC33"});
         }
         else{
+            $("#UserPass").css({"backgroundColor" : "#FFFFFF"});
+            $("#UserPassRep").css({"backgroundColor" : "#FFFFFF"});
+        }
+    });
+
+    $("#UserPassRep").on("input",function(e){
+        if(this.value != $("#UserPass").val()){
+            $("#UserPass").css({"backgroundColor" : "#FFAC33"});
+            $("#UserPassRep").css({"backgroundColor" : "#FFAC33"});
+        }
+        else{
+            $("#UserPass").css({"backgroundColor" : "#FFFFFF"});
             $("#UserPassRep").css({"backgroundColor" : "#FFFFFF"});
         }
     });
